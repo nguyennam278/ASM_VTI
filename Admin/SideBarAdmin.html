@@ -1,0 +1,51 @@
+<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+  <!-- Danh mục quản lý -->
+  <h4 style="font-weight: bold">Danh mục</h4>
+  <ul class="list-group">
+    <li class="list-group-item">
+      <button type="button" class="btnClass" onclick="showManufacture()">Manufacturer</button>
+    </li>
+    <li class="list-group-item">
+      <button type="button" class="btnClass" onclick="showCategory()">Category</button>
+    </li>
+    <li class="list-group-item">
+      <button type="button" class="btnClass"  onclick="showProduct()">Product</button>
+    </li>
+    <li class="list-group-item">
+      <button type="button" class="btnClass" onclick="showAccount()">Account</button>
+    </li>
+  </ul>
+
+  <!-- Filter theo manufacturers -->
+  <h4 style="font-weight: bold">Manufacturers</h4>
+  <ul class="list-group">
+    <li class="list-group-item">
+      <button type="button" class="btnClass">SAMSUNG</button>
+    </li>
+    <li class="list-group-item">
+      <button type="button" class="btnClass">APPLE</button>
+    </li>
+    <li class="list-group-item">
+      <button type="button" class="btnClass">XIAOMI</button>
+    </li>
+    <li class="list-group-item">
+      <button type="button" class="btnClass">OPPO</button>
+    </li>
+  </ul>
+
+  <!-- Filter theo categorys -->
+  <h4 style="font-weight: bold">Categorys</h4>
+
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <select class="form-control">
+        <option value="">-- Select Category --</option>
+        <option value="1">Điện thoại</option>
+        <option value="2">Tablet</option>
+        <option value="3">Laptop</option>
+      </select>
+      <br />
+      <button type="button" class="btn btn-default">Fillter</button>
+    </div>
+  </div>
+</div>
